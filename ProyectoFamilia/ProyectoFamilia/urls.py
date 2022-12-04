@@ -18,5 +18,6 @@ from django.urls import path
 from AppFamilia.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("familiar/", familiar)
+    path("familiar/", familiar),
+    path("mostrarFamiliar", mostrarFamiliar)
 ]

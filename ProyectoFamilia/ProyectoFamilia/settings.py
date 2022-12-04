@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ProyectoFamilia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Julia/Desktop/AppFamilia/ProyectoFamilia/Plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
